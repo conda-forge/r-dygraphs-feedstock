@@ -1,4 +1,4 @@
-{% set version = '1.1.1.4' %}
+{% set version = "1.1.1.5" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/dygraphs_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/dygraphs/dygraphs_{{ version }}.tar.gz
-  sha256: 69d1c97573b650cfbf24d11948e5904b103fdb4b3396d244aab3f3dc0f4e8f6f
+  sha256: 274035988fdd6833121fd5831692355d383acc828d540788dbcecaf88eb2d72d
 
 build:
   number: 0
