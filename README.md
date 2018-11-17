@@ -14,9 +14,8 @@ Summary: An R interface to the 'dygraphs' JavaScript charting library (a copy of
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-dygraphs-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-dygraphs-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-dygraphs-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-dygraphs-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-dygraphs-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-dygraphs-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-dygraphs-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-dygraphs-feedstock)
 
 Current release info
 ====================
