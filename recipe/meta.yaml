@@ -1,4 +1,4 @@
-{% set version = '1.1.1.6' %}
+{% set version = "1.1.1.6" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -15,15 +15,15 @@ source:
 
 build:
   noarch: generic
-  merge_build_host: True  # [win]
-  number: 1002
+  merge_build_host: true  # [win]
+  number: 1003
   rpaths:
     - lib/R/lib/
     - lib/
 
 requirements:
   build:
-    - {{posix}}zip               # [win]
+    - {{ posix }}zip               # [win]
   host:
     - r-base
     - r-htmltools >=0.3.5
@@ -47,12 +47,12 @@ test:
 about:
   home: https://github.com/rstudio/dygraphs
   license: MIT
-  summary: An R interface to the 'dygraphs' JavaScript charting library (a copy of which is included
-    in the package). Provides rich facilities for charting time-series data in R, including
-    highly configurable series- and axis-display and interactive features like zoom/pan
-    and series/point highlighting.
+  summary: An R interface to the 'dygraphs' JavaScript charting library (a copy of which is included in the package). Provides rich facilities for charting time-series data in R, including highly configurable series- and axis-display and interactive features like zoom/pan and series/point highlighting.
   license_family: MIT
 
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
+    - LICENSE
 extra:
   recipe-maintainers:
     - conda-forge/r
