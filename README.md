@@ -1,11 +1,11 @@
-About r-dygraphs
-================
+About r-dygraphs-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-dygraphs-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rstudio/dygraphs
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-dygraphs-feedstock/blob/main/LICENSE.txt)
 
 Summary: An R interface to the 'dygraphs' JavaScript charting library (a copy of which is included in the package). Provides rich facilities for charting time-series data in R, including highly configurable series- and axis-display and interactive features like zoom/pan and series/point highlighting.
 
